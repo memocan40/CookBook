@@ -6,8 +6,8 @@ box-shadow: 10px 10px rgba(0, 0, 0, 0.404);}
 margin-top:2em;
 border-bottom: solid 2px rgba(0, 0, 0, 0.301);
 border-style: double;
-box-shadow: 5px 5px rgba(0, 0, 0, 0.404);
-border-radius: 5px;}
+border-radius: 5px;
+padding:5px;}
 
 .bordered{border: solid 1px;
 padding:10px;
