@@ -1,7 +1,7 @@
 /* Diego Section */
-html {
+/* html {
   font-size: 1.3vmax;
-}
+} */
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -22,24 +22,44 @@ h1 {
 }
 
 /* Stefan Sections */
-.logo {
-  width: 3rem;
-  height: auto;
-}
-.navbar {
-  align-items: center;
+#mainNavbar {
   position: fixed;
   width: 100%;
-}
-
-.navbar {
   background-color: seagreen;
   margin-bottom: 2rem;
   text-transform: uppercase;
+  z-index: 1;
 }
-.navbar.scrolled {
+#mainNavbar.scrolled {
   background: rgba(46, 139, 86, 0.5);
   transition: background 500ms;
+}
+.navbar-brand {
+  width: fit-content;
+}
+.logo {
+  /* width: 20%; */
+  height: auto;
+  max-width: 40px;
+}
+
+.navbar {
+  width: 80%;
+  margin: auto;
+  padding: 0;
+  align-items: center;
+}
+#navbarSupportedContent {
+  justify-content: right;
+}
+.dropdown-menu {
+  background-color: rgba(46, 139, 86, 0.75);
+}
+.dropdown-item {
+  color: white;
+}
+.dropdown-item:hover {
+  background-color: rgba(208, 221, 214, 0.5);
 }
 
 main {
@@ -72,7 +92,7 @@ a:hover {
 }
 .row img {
   width: 100%;
-  height: auto;
+  min-height: 100%;
 }
 
 .grid {
