@@ -78,6 +78,7 @@ a {
 
 a:hover {
   text-decoration: none;
+  color: rgba(139, 195, 74, 1);
 }
 
 .recipe-container {
@@ -96,8 +97,17 @@ a:hover {
   -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
   -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
-  position: relative;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
+  border-radius: 3px;
+  transition: all 0.2s ease;
 }
+
+.img-container:hover {
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(139, 195, 74, 1);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(139, 195, 74, 1);
+  box-shadow: 7px 7px 5px 0px rgba(139, 195, 74, 1);
+}
+
 .row img {
   width: 100%;
   min-height: 100%;
