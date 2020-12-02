@@ -1,3 +1,18 @@
-#pic{width: 40em;}
+#pic{width: 40em;
+border-radius: 20px;}
 
-#head{margin-bottom: 5em;}
+#head{margin-bottom: 5em;
+margin-top:2em;}
+
+.bordered{border: solid 1px;
+padding:10px;
+background-color: rgba(0, 0, 0, 0.034);
+border-radius: 10px;
+padding-left:10%;}
+
+.method{padding:10px;
+    padding-left:10%;
+    border:solid 1px;
+    border-radius: 10px;
+    
+}
