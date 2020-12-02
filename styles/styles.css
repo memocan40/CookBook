@@ -38,12 +38,9 @@ h5 {
 }
 
 main {
-  padding-top: 6rem;
+  padding-top: 9rem;
   width: 80%;
   margin: auto;
-}
-h1 {
-  padding-top: 3rem;
 }
 a:hover {
   text-decoration: none;
