@@ -35,8 +35,8 @@ h2 {
   z-index: 1;
 }
 #mainNavbar.scrolled {
-  background: rgba(46, 139, 86, 0.5);
-  transition: background 500ms;
+  background: rgba(139, 195, 74, 0.5);
+  transition: background 500ms ease-in-out;
 }
 .navbar-brand {
   width: fit-content;
