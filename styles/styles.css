@@ -71,9 +71,8 @@ a:hover {
   align-items: center;
 }
 .row img {
-  flex-shrink: 0;
-  min-width: 100%;
-  min-height: 100%;
+  width: 100%;
+  height: auto;
 }
 
 .grid {
