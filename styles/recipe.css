@@ -1,18 +1,26 @@
 #pic{width: 40em;
-border-radius: 20px;}
+border-radius: 20px;
+box-shadow: 10px 10px rgba(0, 0, 0, 0.404);}
 
-#head{margin-bottom: 5em;
-margin-top:2em;}
+#head{margin-bottom: 3em;
+margin-top:2em;
+border-bottom: solid 2px rgba(0, 0, 0, 0.301);
+border-style: double;
+border-radius: 5px;
+padding:5px;}
 
 .bordered{border: solid 1px;
 padding:10px;
 background-color: rgba(0, 0, 0, 0.034);
 border-radius: 10px;
-padding-left:10%;}
+padding-left:10%;
+box-shadow: 10px 10px rgba(0, 0, 0, 0.404);}
 
 .method{padding:10px;
     padding-left:10%;
     
     border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.404);
+    margin-bottom: 3em;
     
 }
