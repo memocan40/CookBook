@@ -21,6 +21,10 @@ h1 {
   margin-bottom: 6rem;
 }
 
+h2 {
+  margin-top: 7%;
+}
+
 /* Stefan Sections */
 #mainNavbar {
   position: fixed;
@@ -82,13 +86,17 @@ a:hover {
 }
 
 .img-container {
-  width: 90%;
+  width: 100%;
   height: 20vw;
   margin: auto;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
+  position: relative;
 }
 .row img {
   width: 100%;
