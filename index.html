@@ -15,8 +15,14 @@
   </head>
   <body>
     <!--Stefan Section-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+    <nav
+      id="mainNavbar"
+      class="navbar navbar-expand-lg navbar-expand-md navbar-dark"
+    >
+      <a class="navbar-brand" href="#"
+        ><img class="logo" src="./img/121054.png" alt="" />
+        <h5>La Cucina In Fiamme</h5>
+      </a>
       <button
         class="navbar-toggler"
         type="button"
@@ -30,7 +36,7 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link" href="#"
               >Home <span class="sr-only">(current)</span></a
@@ -173,5 +179,13 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $("#mainNavbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
   </body>
 </html>

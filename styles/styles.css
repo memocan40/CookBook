@@ -17,3 +17,42 @@ h5 {
 }
 
 /* Stefan Sections */
+.logo {
+  width: 3rem;
+  height: auto;
+}
+.navbar {
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar {
+  background-color: seagreen;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+.navbar.scrolled {
+  background: rgba(46, 139, 86, 0.5);
+  transition: background 500ms;
+}
+
+main {
+  padding-top: 6rem;
+}
+h1 {
+  padding-top: 3rem;
+}
+a:hover {
+  text-decoration: none;
+}
+.row {
+  text-align: center;
+}
+.recipe-container {
+  max-width: 500px;
+}
+.row img {
+  width: 90%;
+  height: auto;
+}
