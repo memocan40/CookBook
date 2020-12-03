@@ -1,1 +1,11 @@
+.image-container {
+   width: 100%;
+   /* overflow: hidden; */
+   height: auto;
+   margin: 10px; 
+}
 
+.image-container img {
+    /* width: 100%; */
+    height: auto;
+}
