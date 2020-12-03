@@ -1,11 +1,23 @@
 .image-container {
    width: 100%;
-   /* overflow: hidden; */
    height: auto;
-   margin: 10px; 
+   margin: 50px; 
 }
 
 .image-container img {
-    /* width: 100%; */
     height: auto;
+    border-radius: 20px;
+}
+
+.ingredients {
+    min-height: 200px;
+    margin-top: 100px;
+    padding: 15%;
+
+}
+
+.method {
+    padding-left: 15%;
+    margin-top: 10%;
+    margin-bottom: 200px;
 }
