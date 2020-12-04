@@ -37,7 +37,7 @@ h2 {
 }
 #mainNavbar.scrolled {
   background: rgba(139, 195, 74, 0.5);
-  transition: background 500ms ease-in-out;
+  transition: background 500ms ease-out;
 }
 .navbar-brand {
   width: fit-content;
@@ -55,7 +55,14 @@ h2 {
   align-items: center;
 }
 #navbarSupportedContent {
-  justify-content: right;
+  justify-content: flex-end;
+}
+.navbar-dark .navbar-nav .nav-item a {
+  color: white;
+  font-size: 1.2em;
+}
+.active {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 .dropdown-menu {
