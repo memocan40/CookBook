@@ -74,6 +74,19 @@ h2 {
 .dropdown-item:hover {
   background-color: rgba(208, 221, 214, 0.5);
 }
+.button-box {
+  display: flex;
+  width: 100%;
+  padding-bottom: 10%;
+}
+#share-button {
+  background-color: rgba(139, 195, 74, 1);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: auto;
+  width: 150px;
+}
 
 main {
   padding-top: 9rem;
